@@ -8,5 +8,24 @@ Cuando una persona quiere comprar se muestra los
 lugares desocupados y se le asigna un asiento elegido 
 por el pasajero
 */
+let asientos = new Array(60)
+
+let inicializarAsientos = function (asientos: number[]) {
+  for(let asiento = 0; asiento <60;asiento++){
+    asientos[asiento] = 0;
+  }
+}
 
 
+let venderAsiento = function (asientos[]: number) {
+  
+  for(let asiento = 0; asiento <60;asiento++){
+    if (asientos[asiento] === 0){
+      console.log(asientos[asiento])
+    }
+    // let vender = prompt("Asiento?");
+    asientos[vender] = 1;
+  }
+}
+inicializarAsientos;
+venderAsiento
