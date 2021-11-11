@@ -25,5 +25,5 @@ let venderAsiento = function (asientos: string[]) {
     asientos[vender] = "1";
   }
 };
-inicializarAsientos();
-venderAsiento();
+inicializarAsientos(asientos);
+venderAsiento(asientos);
