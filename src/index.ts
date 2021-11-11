@@ -19,12 +19,12 @@ let inicializarAsientos = function (asientos: string[]) {
 let venderAsiento = function (asientos: string[]) {
   for (let asiento = 0; asiento < 60; asiento++) {
     if (asientos[asiento] === "0") {
-      console.log(asientos[asiento]);
+      console.log("Asiento " + asientos[asiento] + " libre");
     }
   }
-    let vender = prompt("Asiento?");
-    asientos[vender] = "1";
-  
+  let vender = prompt("Asiento?");
+  asientos[vender] = "1";
+  console.log(asientos[vender]);
 };
 inicializarAsientos(asientos);
 venderAsiento(asientos);
