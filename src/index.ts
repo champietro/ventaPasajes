@@ -21,9 +21,10 @@ let venderAsiento = function (asientos: string[]) {
     if (asientos[asiento] === "0") {
       console.log(asientos[asiento]);
     }
+  }
     let vender = prompt("Asiento?");
     asientos[vender] = "1";
-  }
+  
 };
 inicializarAsientos(asientos);
 venderAsiento(asientos);
